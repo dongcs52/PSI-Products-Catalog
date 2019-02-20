@@ -9,6 +9,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".recorder4"></activity>
+        <activity android:name=".recorder3" />
+        <activity android:name=".recorder2" />
+        <activity android:name=".recorder1" />
+        <activity android:name=".cctv4" />
+        <activity android:name=".cctv3" />
+        <activity android:name=".cctv2" />
+        <activity android:name=".cctv1" />
+        <activity android:name=".setcamera5" />
+        <activity android:name=".setcamera4" />
+        <activity android:name=".setcamera3" />
+        <activity android:name=".setcamera2" />
+        <activity android:name=".setcameratwo" />
+        <activity android:name=".setcamera1" />
+        <activity android:name=".camerapage2" />
+        <activity android:name=".radarpage" />
+        <activity android:name=".waterfilterpage" />
+        <activity android:name=".airpage" />
+        <activity android:name=".camerapage" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,6 +35,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>
